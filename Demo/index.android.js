@@ -11,8 +11,12 @@ import {
   Text,
   View
 } from 'react-native';
+import RNIdle from 'react-native-idle'
 
 class Demo extends Component {
+  componentDidMount() {
+    RNIdle.disableIdleTimer()
+  }
   render() {
     return (
       <View style={styles.container}>
