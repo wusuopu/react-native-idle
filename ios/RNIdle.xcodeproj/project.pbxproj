@@ -215,9 +215,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../node_modules/react-native/React",
-					"$(SRCROOT)/../react-native/React",
-					"$(SRCROOT)/node_modules/react-native/React",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
 					"$(inherited)",
 					"$(SRCROOT)/../../React/**",
 				);
@@ -231,9 +231,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../node_modules/react-native/React",
-					"$(SRCROOT)/../react-native/React",
-					"$(SRCROOT)/node_modules/react-native/React",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
 					"$(inherited)",
 					"$(SRCROOT)/../../React/**",
 				);
@@ -262,6 +262,7 @@
 				6FB6F0E41D8CE22100D9AE37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

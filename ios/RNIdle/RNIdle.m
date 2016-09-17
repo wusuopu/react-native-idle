@@ -10,6 +10,8 @@
 
 @implementation RNIdle
 
+RCT_EXPORT_MODULE();
+
 RCT_EXPORT_METHOD(disableIdleTimer)
 {
     //  DON'T let the device go to sleep during our sync
