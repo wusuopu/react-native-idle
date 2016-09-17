@@ -1,0 +1,18 @@
+{
+  "name": "react-native-idle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "rnpm": {
+    "android": {
+      "packageInstance": "new RNIdlePackage()"
+    },
+    "ios": {
+      "project": "ios/RNIdle.xcodeproj"
+    }
+  }
+}
